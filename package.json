@@ -10,7 +10,8 @@
     "dev": "vue-cli-service build --watch",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "migrate": "yarn run knex migrate:latest --knexfile ./models/knexfile.js"
+    "migrate": "yarn run knex migrate:latest --knexfile ./models/knexfile.js",
+    "seed": "yarn run knex seed:run --knexfile ./models/knexfile.js"
   },
   "dependencies": {
     "axios": "^0.19.0",
